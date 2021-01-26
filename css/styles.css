@@ -10112,3 +10112,11 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+.hover-darken:hover img {
+-webkit-filter: brightness(0.8);
+}
+
+.hover-darken:hover :not(img) {
+opacity: 1;
+transition: .5s;
+}
